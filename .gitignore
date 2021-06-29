@@ -41,3 +41,5 @@ msbuild.wrn
 
 # Terraform
 .terraform
+.terraform.lock.hcl
+azure-locations.json
