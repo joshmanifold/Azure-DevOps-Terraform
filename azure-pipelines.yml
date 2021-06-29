@@ -39,7 +39,7 @@ stages:
     variables:
     - group: TerraformEnvVars
     steps:
-    - scripts: |
+    - script: |
         set -e
 
         terraform init -input=false
